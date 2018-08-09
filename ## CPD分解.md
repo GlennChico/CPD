@@ -12,8 +12,9 @@ Lebesgue measure)*
 #### 主成分分析（PCA）
 * PCA是最重要的降维方法之一，在数据压缩消除冗余和数据噪音消除等领域都有广泛的应用。
 * 降维标准：样本点到这个超平面的距离足够近，或者说样本点在这个超平面的投影尽可能分开
-* PCA推导：基于小于投影距离
-<div>[![image.png](https://s19.postimg.cc/sv1tbqinn/image.png)](https://postimg.cc/image/kpjrdkuen/)
+* PCA推导：基于小于投影距离 
+[![image.png](https://s19.postimg.cc/sv1tbqinn/image.png)](https://postimg.cc/image/kpjrdkuen/)
+	
 ### 应用
 1. 在广泛的信号过程和数据分析分支中，CPD已经地成为作为信号分离的高级工具
 2. 在是这一次我知道的认识
@@ -93,22 +94,18 @@ $\sqrt{3x-1}+(1+x)^2$
 |the matrix singular value decomposition（SVD）|矩阵奇异值分解|
 |CANDECOMP/PARAFAC decomposition |CP分解|
 |blind source separation （BSS）|盲信号分离|
-
+|location-based social networds(LBSNS)||
 ### 图片记录
 ---
-<div>
 [![image.png](https://s19.postimg.cc/t2t4j1as3/image.png )](https://postimg.cc/image/j5i3pz367/)      
 *三维张量在CPD和TUCKER下的不同表现形式*    
 ---
-<div>
 [![image.png](https://s19.postimg.cc/kafu6lh83/image.png)](https://postimg.cc/image/rdnpm7mnj/)  
 *不同乘积的定义*  
 ---
-<div>
 [![image.png](https://s19.postimg.cc/ad4tdkzcj/image.png)](https://postimg.cc/image/8y38ouy9b/)  
 *TUCKER分解*  
 ---
-<div>
 [![1531893071_1.png](https://s19.postimg.cc/6e3xjptgz/1531893071_1.png)](https://postimg.cc/image/go6ciyjcf/)  
 *the higher-order orthogonal iteration算法*
 ### MATLAB 代码
