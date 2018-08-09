@@ -26,10 +26,11 @@ Lebesgue measure)*
 	* mode-n product: 张量A属于R(I1XI2...IN)，B属于R(JnXIn)，乘积出的C属于R(I1X...XIn-1XJnXIn+1X...XIN)
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 $\sqrt{3x-1}+(1+x)^2$
+	
 ### 计算
 1. 由于CPD的计算在本质上是多线性的，我们可以通过交替最小二乘结构得到一系列线性子问题的结果，同时在保持其他要素满足条件的情况下，通过最小二乘法依次选择合适高效的要素矩阵。根据Khatri–Raoproducts，
 ### EXAMPLE
-* example1
+	* example1
 	* 考虑一个张量向量它包含K和恒等子列阵I张量，I`=KI总共
 	* 对于R窄带
 ### TKD和CPD区别
@@ -37,6 +38,7 @@ $\sqrt{3x-1}+(1+x)^2$
 	* CPD采用的是点乘（KHATRI-RAO乘积），即IxR和JxR。
 	* TKD采用的是叉乘（KRONECKER乘积），即I1xI2和J1xJ2。
 	* 结果C=AxB规模都为I1I2xJ1J2
+	
 ### 张量矩阵化（matricization）
 * 意义:转化一个张量为矩阵，也称为unfloding或者flattening，是重组N维向量为一个矩阵，例如，一个2x3x4张量可以重组维6x4的矩阵或3x8的矩阵等。我们考虑mode-n矩阵化因为这是和我们讨论相关的形式。n-mode张量矩阵化X属于R(I1XI2..XIN)可以标记为X（n）
 * 		 
