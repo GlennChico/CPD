@@ -94,7 +94,8 @@ $\sqrt{3x-1}+(1+x)^2$
 |the matrix singular value decomposition（SVD）|矩阵奇异值分解|
 |CANDECOMP/PARAFAC decomposition |CP分解|
 |blind source separation （BSS）|盲信号分离|
-|location-based social networds(LBSNS)||
+|location-based social networds(LBSNS)|基于地的社交网络|
+
 ### 图片记录
 ---
 [![image.png](https://s19.postimg.cc/t2t4j1as3/image.png )](https://postimg.cc/image/j5i3pz367/)      
